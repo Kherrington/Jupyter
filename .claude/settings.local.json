@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(\"C:\\\\Users\\\\kari\\\\workspace\\\\Jupyter\\\\jupyter_napari\\\\Scripts\\\\python.exe\" -c \"import pkg_resources; pkgs = [p.project_name for p in pkg_resources.working_set]; [print\\(p\\) for p in sorted\\(pkgs\\) if any\\(k in p.lower\\(\\) for k in [''cellpose'',''skimage'',''scikit'',''tiff'',''tif'',''napari'',''nd2'',''czi'',''aics'',''bioio'',''numpy'',''scipy'',''pandas'']\\)]\")",
+      "Bash(grep \"\\\\.ome\\\\.tiff$\")",
+      "Bash(\"C:\\\\Users\\\\kari\\\\workspace\\\\Jupyter\\\\jupyter_napari\\\\Scripts\\\\python.exe\" -c \":*)",
+      "Bash(\"C:\\\\Users\\\\kari\\\\workspace\\\\Jupyter\\\\jupyter_napari\\\\Scripts\\\\python.exe\" -c \"import cellpose; print\\(cellpose.__version__\\)\")",
+      "Bash(\"C:\\\\Users\\\\kari\\\\workspace\\\\Jupyter\\\\jupyter_napari\\\\Scripts\\\\python.exe\" -c \"from cellpose import models, version_str; print\\(version_str\\)\")",
+      "Bash(nvidia-smi --query-gpu=name,memory.total,memory.free --format=csv,noheader)",
+      "Bash(dir \"C:\\\\Users\\\\kari\\\\.cellpose\\\\models\")",
+      "Bash(dir \"C:\\\\Users\\\\kari\\\\.cellpose\\\\models\" /a)"
+    ]
+  }
+}
